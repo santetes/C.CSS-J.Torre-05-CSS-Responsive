@@ -1,0 +1,17 @@
+/* 
+"Crear un Media Querie":{
+			"prefix" : "mq",
+			"body" : [
+				"@media (min-width: $1px){\n\t$2\n}"
+				]
+		}
+
+*/
+
+
+
+@media (min-width: 700px){
+    .body{
+        font-size: 4rem;
+    }
+}
